@@ -1,79 +1,64 @@
 import React, {Component} from "react";
-import { Button, Container, Card } from "react-bootstrap";
-import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import { Button, Container, Card, Form, ListGroup } from "react-bootstrap";
+import {Link} from "react-router-dom";
+import { useState } from "react"
+import data from "../data.json";
 
-export default class List extends Component{
-    render(){
+
+export default function List (){
+        const arr = Object.keys(data).map((id) => [id, (`people.${id}.surname`) + " " + (`people.${id}.name`) + " " + (`people.${id}.patronymic`)])
+        
+        // search field
+        const [name, setName] = useState('');
+        // search result
+        const [foundPerson, setFoundPerson] = useState(arr);
+        const find = (e) => {
+            const keyword = e.target.value;
+            if (keyword !== "") {
+                const results = arr.filter((user) => {
+                    return user[1].toLowerCase().includes(keyword.toLowerCase());
+                });
+                setFoundPerson(results);
+            } else {
+                setFoundPerson(arr);
+                // If the text field is empty, show all users
+            }
+        
+            setName(keyword);
+        };
         return(
                 <>  
-                <Container>      
-                    <Card>
-                        <Card.Header>People1</Card.Header>
-                        <Card.Body>
-                            <Card.Title>Special title treatment</Card.Title>
-                            <Card.Text>
-                            With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Link to="/p1">
-                                <Button variant="primary">Go somewhere</Button>
-                            </Link>
-                        </Card.Body>
-                    </Card>                  
+                <Container>    
+                    <div >
+                    <Form >
+                            <Form.Control className="search-box" type="search" placeholder={("searchCaption")} onChange={find} />
+                    </Form>
+                    </div>  
+                    <Card >
+                    <ListGroup variant="flush" >
 
-                    <Card>
-                        <Card.Header>People2</Card.Header>
-                        <Card.Body>
-                            <Card.Title>Special title treatment</Card.Title>
-                            <Card.Text>
-                            With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Link to="/p2">
-                                <Button variant="primary">Go somewhere</Button>
-                            </Link>
-                        </Card.Body>
-                    </Card>                  
+                        {foundPerson && foundPerson.length > 0 ? (
+                        foundPerson.map((id) =>
+                            <ListGroup.Item action as={Link} to={`/PersonalInfo/${id[0]}`}>
+                                <div >
+                                    <img
+					                    src={require(`../img/${id[0]}/fface.png`)}
+				                    />
+                                    <div>
+                                        <p >{(`people.${id[0]}.surname`)} {(`people.${id[0]}.name`)} {(`people.${id[0]}.patronymic`)}</p>
+                                        <p >{(`people.${id[0]}.shortDescription`)}</p>
+                                    </div>
+                                </div>
 
-                    <Card>
-                        <Card.Header>People3</Card.Header>
-                        <Card.Body>
-                            <Card.Title>Special title treatment</Card.Title>
-                            <Card.Text>
-                            With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Link to="/p3">
-                                <Button variant="primary">Go somewhere</Button>
-                            </Link>
-                        </Card.Body>
-                    </Card>                  
+                            </ListGroup.Item>
 
-                    <Card>
-                        <Card.Header>People4</Card.Header>
-                        <Card.Body>
-                            <Card.Title>Special title treatment</Card.Title>
-                            <Card.Text>
-                            With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Link to="/p4">
-                                <Button variant="primary">Go somewhere</Button>
-                            </Link>
-                        </Card.Body>
-                    </Card>                  
+                        )) : ("")}
 
-                    <Card>
-                        <Card.Header>People5</Card.Header>
-                        <Card.Body>
-                            <Card.Title>Special title treatment</Card.Title>
-                            <Card.Text>
-                            With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Link to="/p5">
-                                <Button variant="primary">Go somewhere</Button>
-                            </Link>
-                        </Card.Body>
-                    </Card> 
-                    </Container> 
+                    </ListGroup>
+                </Card>
+                </Container> 
     
             </>
         )
+
     }
-}

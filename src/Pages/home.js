@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Container, TabContent, Tab, Nav, Row, Col, Button, CardGroup, Card, Alert } from "react-bootstrap";
-import yana from './img/yana.jpg'
-import anya from './img/anya.jpg'
-import danik from './img/danik.jpg'
-import artem from './img/artem.jpg'
+import yana from '../img/yana.jpg'
+import anya from '../img/anya.jpg'
+import danik from '../img/danik.jpg'
+import artem from '../img/artem.jpg'
 import "./home.css";
 import People from './people';
 
