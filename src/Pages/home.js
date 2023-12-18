@@ -5,7 +5,6 @@ import anya from '../img/anya.jpg'
 import danik from '../img/danik.jpg'
 import artem from '../img/artem.jpg'
 import "./home.css";
-import People from './people';
 
 export default class Home extends Component {
     render() {

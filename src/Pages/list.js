@@ -1,16 +1,25 @@
-import React, {Component} from "react";
+import React, {Component, useTransition} from "react";
 import { Button, Container, Card, Form, ListGroup } from "react-bootstrap";
 import {Link} from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 import { useState } from "react"
 import data from "../data.json";
 
 
 export default function List (){
-        const arr = Object.keys(data).map((id) => [id, (`people.${id}.surname`) + " " + (`people.${id}.name`) + " " + (`people.${id}.patronymic`)])
+
+        const { t } = useTranslation();
+        const temp = t('people', {returnObjects: true});
         
+      //  temp.map(item) => {
+      //      <div>
+      //          {item}
+      //      </div>
+      //  }  
+          //  console.log(arr);
         // search field
+        const arr = Object.keys(data).map((id) => [id, t(`people.${id}.surname`) + " " + t(`people.${id}.name`) + " " + t(`people.${id}.patronymic`)])
         const [name, setName] = useState('');
-        // search result
         const [foundPerson, setFoundPerson] = useState(arr);
         const find = (e) => {
             const keyword = e.target.value;
@@ -31,12 +40,11 @@ export default function List (){
                 <Container>    
                     <div >
                     <Form >
-                            <Form.Control className="search-box" type="search" placeholder={("searchCaption")} onChange={find} />
+                            <Form.Control className="search-box" type="search" placeholder={t("searchCaption")} onChange={find} />
                     </Form>
                     </div>  
                     <Card >
                     <ListGroup variant="flush" >
-
                         {foundPerson && foundPerson.length > 0 ? (
                         foundPerson.map((id) =>
                             <ListGroup.Item action as={Link} to={`/PersonalInfo/${id[0]}`}>
@@ -45,13 +53,11 @@ export default function List (){
 					                    src={require(`../img/${id[0]}/fface.png`)}
 				                    />
                                     <div>
-                                        <p >{(`people.${id[0]}.surname`)} {(`people.${id[0]}.name`)} {(`people.${id[0]}.patronymic`)}</p>
-                                        <p >{(`people.${id[0]}.shortDescription`)}</p>
+                                    <p className="arch-fio">{arr[0][1]}</p>
                                     </div>
                                 </div>
 
                             </ListGroup.Item>
-
                         )) : ("")}
 
                     </ListGroup>
