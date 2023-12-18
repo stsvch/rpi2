@@ -4,7 +4,7 @@ import logo from './logo192.png'
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import Home from '../Pages/home';
 import List from '../Pages/list';
-
+import PersonalInfo from "../Pages/PersonalInfo";
 
 export default class Header extends Component{
     render(){
@@ -34,6 +34,7 @@ export default class Header extends Component{
                     <Routes>
                         <Route exact path="/" element={<Home/>} />
                         <Route exact path="/list" element={<List/>} />
+                        <Route exact path="/PersonalInfo/:id" element={<PersonalInfo/>} />
                     </Routes>
                 </Router>
             </>
