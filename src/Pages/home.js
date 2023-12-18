@@ -5,46 +5,52 @@ import anya from '../img/anya.jpg'
 import danik from '../img/danik.jpg'
 import artem from '../img/artem.jpg'
 import "./home.css";
+import { useTranslation } from 'react-i18next';
+import {
+    NavLink,
+} from "react-router-dom";
 
-export default class Home extends Component {
-    render() {
+function getRandomInt(max) {
+	return Math.floor((Math.random() * max))+1;
+}
+
+
+export default function Home(){
+        const { t } = useTranslation();
+        const person = t('people', { returnObjects: true });
+        let id =  getRandomInt(4);
         return (
             <Container className="home_page">
                 <Container className="website">
                     <Alert>
-                        <Alert.Heading>About site</Alert.Heading>
-                    <p>
-                    Legendary bank robbers went down in history not because of their heroic deeds, 
-                    but because of the most brazen attacks on banks. As you know, life writes the best scripts, 
-                    so the stories of daring bank robbers 
-                    are an inspiration for many screenwriters, directors and writers. 
-                    Meet the legendary bank robbers — thieves of all time.
-                    </p>
-                    <hr />
-                    <p className="mb-0">
-                        On this site you can get acquainted with the most famous robbers
-                    </p>
+                        <Alert.Heading>{t("about1")}</Alert.Heading>
+                        <p>{t("about2")}</p>
+                        <hr />
+                        <p className="mb-0">{t("about3")}</p>
                     </Alert>
                 </Container>
                 <Container className="people">
                     <Card>
-                        <Card.Header>People</Card.Header>
-                        <Card.Body>
-                            <Card.Title>Special title treatment</Card.Title>
-                            <Card.Text>
-                            With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
+                    <h3> {t("person_of_day")}</h3>
+                        <Card.Img 
+                            className="people-img"
+                            variant="top"                             
+                            src={require(`../img/${person[id].id}/fface.png`)} 
+                            alt={`Avatar of ${person[id].name}`}
+                            />
+                        <Card.Title>{`${person[id].name} ${person[id].surname}`}</Card.Title>
+                        <NavLink to={`/PersonalInfo/${person[id].id}`}>
+                            <Button className="peopleb">{t("personButton")}</Button>
+                        </NavLink>
                     </Card>                  
                 </Container>
                 <Container className="team-container">
-                    <h1> Our team</h1>
+                    <h1> {t("developers")}</h1>
                     <CardGroup className="team">
                         <Card className="dev">
                             <Card.Img variant="top" src={yana} />
                             <Card.Body>
-                                <Card.Title>Yana</Card.Title>
+                                <Card.Title>{t("dev1")}</Card.Title>
                             </Card.Body>
                             <Card.Footer>
                                 <Card.Link href="https://github.com/stsvch">GitHub</Card.Link>
@@ -53,7 +59,7 @@ export default class Home extends Component {
                         <Card className="dev">
                             <Card.Img variant="top" src={anya} />
                             <Card.Body>
-                                <Card.Title>Anya</Card.Title>
+                                <Card.Title>{t("dev2")}</Card.Title>
                             </Card.Body>
                             <Card.Footer>
                                 <Card.Link href="https://github.com/Ann1508">GitHub</Card.Link>
@@ -62,7 +68,7 @@ export default class Home extends Component {
                         <Card className="dev">
                             <Card.Img variant="top" src={artem} />
                             <Card.Body>
-                                <Card.Title>Artem</Card.Title>
+                                <Card.Title>{t("dev3")}</Card.Title>
                             </Card.Body>
                             <Card.Footer>
                                 <Card.Link href="https://github.com/ArturPirogkovMinsk">GitHub</Card.Link>
@@ -71,7 +77,7 @@ export default class Home extends Component {
                         <Card className="dev">
                             <Card.Img variant="top" src={danik} />
                             <Card.Body>
-                                <Card.Title>Danik</Card.Title>
+                                <Card.Title>{t("dev4")}</Card.Title>
                             </Card.Body>
                             <Card.Footer>
                                 <Card.Link href="https://github.com/stsvch">GitHub</Card.Link>
@@ -82,4 +88,3 @@ export default class Home extends Component {
             </Container>
         )
     }
-}

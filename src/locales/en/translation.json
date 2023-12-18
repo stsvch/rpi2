@@ -1,22 +1,21 @@
 {
 	"home_page": "Home",
+	"list": "List",
 	"list_of_arch": "Architects",
 	"russian_lang": "Russian",
 	"english_lang": "English",
-	"greetings": "Belarusian architecture is in front of you",
-	"about1": "Belarusian architecture is represented by a vastness of architectural styles that are interesting individually, but in combination form something special.",
-	"about2": "Meet some Belarusian architects.",
-
-	"developers": "Developers",
-	"dev1": "Kononchuk Denis",
-	"dev2": "Baran Igor",
-	"dev3": "Novik Vladislav",
+	"about1": "About site",
+	"about2": "Legendary bank robbers went down in history not because of their heroic deeds, but because of the most brazen attacks on banks. As you know, life writes the best scripts, so the stories of daring bank robbers are an inspiration for many screenwriters, directors and writers. Meet the legendary bank robbers — thieves of all time",
+	"about3": " On this site you can get acquainted with the most famous robbers",
+	"dev1": "Yana",
+	"dev2": "Anya",
+	"dev3": "Аrtem",
+	"dev4": "Danic",
 
 	"person_of_day": "Person of the Day",
 	"personButton": "More...",
 
-	"architectsListHeader": "List of architects of Belarus",
-	"searchCaption": "Search for an architect",
+	"searchCaption": "Search for an robbers",
 
 	"people": [
 		{

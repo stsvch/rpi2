@@ -1,6 +1,7 @@
 {
 
 		"brenden_abbott": {
+			"id":"1",
 			"name": "Бренден Эббот",
 			"birthYear": "1962",
 			"deathYear": "-",
@@ -20,6 +21,7 @@
 		},
 		
 		"john_gilbert": {
+			"id":"2",
 			"name": "Джохан Гилберт",
 			"birthYear": "1955",
 			"deathYear": "2015",
@@ -33,6 +35,7 @@
 		},
 		
 		"ned_kelly": {
+			"id":"3",
 			"name": "Нэд Келли",
 			"birthYear": "1948",
 			"deathYear": "...",
@@ -55,6 +58,7 @@
 	},
 		
 		"ronald_ryan": {
+			"id":"4",
 			"name": "Роналд Риан",
 			"birthYear": "1912",
 			"deathYear": "1980",
@@ -76,6 +80,7 @@
 	},
 		
 		"andreas_baader": {
+			"id":"5",
 			"name": "Андреас Баадер",
 			"birthYear": "1882",
 			"deathYear": "1951",
