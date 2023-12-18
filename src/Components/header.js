@@ -10,7 +10,7 @@ import rus from "../img/flagRus.svg";
 import eng from "../img/flagEng.svg";
 
 export default function Header (){
-        const { t, i18n } = useTranslation();
+    const { t, i18n } = useTranslation();
         return(
             <>
                 <Navbar sticky="top" collapseOnSelect expand="md" bg="light" variant="light">
@@ -27,10 +27,10 @@ export default function Header (){
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mr-auto">
-                                <Nav.Link href="/">Home</Nav.Link>
-                                <Nav.Link href="/list">List</Nav.Link>
+                                <Nav.Link href="/">{t("home_page")}</Nav.Link>
+                                <Nav.Link href="/list">{t("list")}</Nav.Link>
                             </Nav>
-                            <div className="nav-languages">
+                            <div className="nav-languages-ru">
 							<Nav.Link
 								className="lang"
 								onClick={() => i18n.changeLanguage("ru")}
@@ -38,7 +38,8 @@ export default function Header (){
 								<img src={rus} alt="russian" className="flag" />
 								<span>{t("russian_lang")}</span>
 							</Nav.Link>
-
+                            </div>
+                            <div className="nav-languages-en">
 							<Nav.Link
 								className="lang"
 								onClick={() => i18n.changeLanguage("en")}
