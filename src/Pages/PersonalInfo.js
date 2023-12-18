@@ -1,14 +1,15 @@
 import Card from "react-bootstrap/Card";
 import Stack from "react-bootstrap/Stack";
-import data from "../data.json";
 import { useParams } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
+import { useTranslation } from 'react-i18next';
 
 function PersonalInfo() {
-	const params = useParams();
-	const id = params.id;
-	const info = (`people.${id}.info`, { returnObjects: true });
-	const captions = (`people.${id}.captions`, { returnObjects: true });
+	const { t } = useTranslation();
+	const id = useParams().id;
+	const people = t('people', {returnObjects: true});
+	const person = people.find((p) => p.id === id);
+
 	return (
 		<Stack >
 			<Card >
@@ -18,26 +19,25 @@ function PersonalInfo() {
 				/>
 				<Card.Body >
 					<Card.Title>
-						{(`people.${id}.surname`)} {(`people.${id}.name`)}{" "}
-						{(`people.${id}.patronymic`)}
+						{`${person.surname}`} {`${person.name}`}{" "}
 					</Card.Title>
 					<Card.Text >
-						{data[id]["birthDate"]} - {data[id]["deathDate"]}
+						{person.birthDate} - {person.deathDate}
 					</Card.Text>
 					<Card.Text >
-						{(`people.${id}.longDescription`)}
+						{`${person.longDescription}`}
 					</Card.Text>
 				</Card.Body>
 			</Card>
 			<Carousel interval={null} >
-				{data[id]["gallery"].map((name, index) => (
+				{person.gallery.map((name, index) => (
 					<Carousel.Item key={index}>
 						<img
 							src={require(`../img/${id}/${name}`)}
 							alt={`${index + 1}`}
 						/>
 						<Carousel.Caption >
-							<p>{captions[index]}</p>
+							<p>{person.captions[0]}</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 				))}
@@ -45,7 +45,7 @@ function PersonalInfo() {
 			<div className="video-wrapper">
 				<iframe
 					className="person-video"
-					src={`https://www.youtube.com/embed/${data[id]["videoLink"]}`}
+					src={`https://www.youtube.com/embed/${person.videoLink}`}
 					allow="accelerometer; autoplay, picture-in-picture"
 					allowFullScreen
 				></iframe>
