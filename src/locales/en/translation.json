@@ -18,11 +18,11 @@
 	"architectsListHeader": "List of architects of Belarus",
 	"searchCaption": "Search for an architect",
 
-	"people": {
-		"brenden_abbott": {
-			"name": "Michail",
-			"surname": "Baklanov",
-			"patronymic": "Ivanovich",
+	"people": [
+		{
+			"id": "1",
+			"name": "Brenden",
+			"surname": "Abbott",
 			"shortDescription": "Belarusian Soviet architect. Honored Architect of the Belarusian SSR. Implemented an art gallery (art museum) BSSR.",
 			"longDescription": "M. Baklanov's skill was formed under the influence of such prominent masters of architecture as I. Langbard, M. Sailboats, M. Barsch. M. Baklanov fully shared their creative preferences and throughout 1944-1950 was their student and active assistant. M. Baklanov managed to gain creative independence only in 1949, when he received his first major order — the development of the project of the building of the State Art Gallery of the BSSR.",
 			"info": [
@@ -37,10 +37,26 @@
 				"National Art Museum of the Republic of Belarus",
 				"M. Gorky National Academic Drama Theater",
 				"An envelope with the original stamp of the Republic of Belarus, dedicated to the 100th anniversary of the birth of M. I. Baklanov. 2014"
-			]
+			],
+			"birthYear": "1962",
+			"deathYear": "-",
+			"birthDate": "08.05.1962",
+			"deathDate": "-",
+			"events": [
+				"1914 - 1932",
+				"1932 - 1936",
+				"1936 - 1940",
+				"1940 - 1944",
+				"1944 - 1950",
+				"1950 - 1990"
+			],
+			"gallery": ["1.png", "2.png", "3.png"],
+			"videoLink": "7CsnFSbpUqE",
+			"mapCoordinates": [47.5741, 37.3175]
 		},
 
-		"john_gilbert": {
+		{
+			"id": "2",
 			"name": "Yuriy",
 			"surname": "Ananic",
 			"patronymic": "Stepanovich",
@@ -57,13 +73,28 @@
 				"Reconstruction of the building of the National Bank of Belarus (2002)",
 				"Branch building No. 511 of Belarusbank ASB",
 				"Residential complex of the Embassy of the Russian Federation in Belarus"
-			]
+			],
+			"birthYear": "1962",
+			"deathYear": "-",
+			"birthDate": "08.05.1962",
+			"deathDate": "-",
+			"events": [
+				"1914 - 1932",
+				"1932 - 1936",
+				"1936 - 1940",
+				"1940 - 1944",
+				"1944 - 1950",
+				"1950 - 1990"
+			],
+			"gallery": ["1.png", "2.png", "3.png"],
+			"videoLink": "7CsnFSbpUqE",
+			"mapCoordinates": [47.5741, 37.3175]
 		},
 
-		"ned_kelly": {
-			"name": "Viktor",
-			"surname": "Karako",
-			"patronymic": "Ivanovic",
+		{
+			"id": "3",
+			"name": "Ned",
+			"surname": "Kelly",
 			"shortDescription": "Belarusian architect, member of the Board of the Belarusian Union of Architects, winner of the Lenin Komsomol Prize of Belarus, head of the creative workshop.",
 			"longDescription": "Viktor Ivanovich Karako (belor. Karaka Viktar Ivanavich; b. July 29, 1948, Grodno) — Belarusian architect, member of the Board of the Belarusian Union of Architects, winner of the Lenin Komsomol Prize of Belarus, head of the creative workshop.",
 			"info": [
@@ -80,13 +111,28 @@
 				"Reconstruction of school 4 in Minsk",
 				"Youth Center in Novopolotsk",
 				"Judge's house on the Borovaya racing ring"
-			]
+			],
+			"birthYear": "1962",
+			"deathYear": "-",
+			"birthDate": "08.05.1962",
+			"deathDate": "-",
+			"events": [
+				"1914 - 1932",
+				"1932 - 1936",
+				"1936 - 1940",
+				"1940 - 1944",
+				"1944 - 1950",
+				"1950 - 1990"
+			],
+			"gallery": ["1.png", "2.png", "3.png"],
+			"videoLink": "7CsnFSbpUqE",
+			"mapCoordinates": [47.5741, 37.3175]
 		},
 
-		"ronald_ryan": {
-			"name": "Vladimir",
-			"surname": "Korol",
-			"patronymic": "Adamovich",
+		{
+			"id": "4",
+			"name": "Ronald",
+			"surname": "Ryan",
 			"shortDescription": "Soviet, Belarusian architect, teacher. People's Architect of the USSR (1970)",
 			"longDescription": "Full member of the Academy of Arts of the USSR (1979). Corresponding member of the Academy of Construction and Architecture of the USSR (1957). Member of the Union of Architects of the Byelorussian SSR (1942).Member of the CPSU (b) since 1940. Delegate of the XXII Congress of the CPSU",
 			"info": [
@@ -102,13 +148,28 @@
 				"Leninsky Prospekt (now Independence Avenue)",
 				"A postcard of Belarus with the original stamp '100 years since the birth of V. A. King.' 2012",
 				"V. Korol's grave in the Eastern cemetery of Minsk."
-			]
+			],
+			"birthYear": "1962",
+			"deathYear": "-",
+			"birthDate": "08.05.1962",
+			"deathDate": "-",
+			"events": [
+				"1914 - 1932",
+				"1932 - 1936",
+				"1936 - 1940",
+				"1940 - 1944",
+				"1944 - 1950",
+				"1950 - 1990"
+			],
+			"gallery": ["1.png", "2.png", "3.png"],
+			"videoLink": "7CsnFSbpUqE",
+			"mapCoordinates": [47.5741, 37.3175]
 		},
 
-		"andreas_baader": {
-			"name": "Iosif",
-			"surname": "Langbard",
-			"patronymic": "Grigorievich",
+		{
+			"id": "5",
+			"name": "Andreas",
+			"surname": "Baader",
 			"shortDescription": "Belarusian Soviet architect, Honored Artist of the Belarusian SSR (1934), winner of the Grand Prix of the World Exhibition in Paris, 1937, Doctor of Architecture (since 1939).",
 			"longDescription": "Is one of the outstanding architects of Europe of the XX century, whose artistic heritage has had a significant impact on the development of modern architecture. His architectural works greatly influenced the formation of the appearance of the city of Minsk and are examples of Belarusian architecture.",
 			"info": [
@@ -122,7 +183,22 @@
 				"Independence Square in Minsk",
 				"Academy of Sciences Building in Minsk",
 				"Watercolor by Joseph Langbard 'Minsk'"
-			]
+			],
+			"birthYear": "1962",
+			"deathYear": "-",
+			"birthDate": "08.05.1962",
+			"deathDate": "-",
+			"events": [
+				"1914 - 1932",
+				"1932 - 1936",
+				"1936 - 1940",
+				"1940 - 1944",
+				"1944 - 1950",
+				"1950 - 1990"
+			],
+			"gallery": ["1.png", "2.png", "3.png"],
+			"videoLink": "7CsnFSbpUqE",
+			"mapCoordinates": [47.5741, 37.3175]
 		}
-	}
+	]
 }
