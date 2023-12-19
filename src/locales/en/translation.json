@@ -1,204 +1,170 @@
 {
 	"home_page": "Home",
-	"list_of_arch": "Architects",
+	"list": "List",
+	"developers": "Developers",
 	"russian_lang": "Russian",
 	"english_lang": "English",
-	"greetings": "Belarusian architecture is in front of you",
-	"about1": "Belarusian architecture is represented by a vastness of architectural styles that are interesting individually, but in combination form something special.",
-	"about2": "Meet some Belarusian architects.",
-
-	"developers": "Developers",
-	"dev1": "Kononchuk Denis",
-	"dev2": "Baran Igor",
-	"dev3": "Novik Vladislav",
+	"about1": "About site",
+	"about2": "Legendary bank robbers went down in history not because of their heroic deeds, but because of the most brazen attacks on banks. As you know, life writes the best scripts, so the stories of daring bank robbers are an inspiration for many screenwriters, directors and writers. Meet the legendary bank robbers — thieves of all time",
+	"about3": " On this site you can get acquainted with the most famous robbers",
+	"dev1": "Yana",
+	"dev2": "Anya",
+	"dev3": "Аrtem",
+	"dev4": "Danic",
 
 	"person_of_day": "Person of the Day",
 	"personButton": "More...",
 
-	"architectsListHeader": "List of architects of Belarus",
-	"searchCaption": "Search for an architect",
+	"searchCaption": "Search for an robbers",
 
 	"people": [
 		{
 			"id": "1",
 			"name": "Brenden",
 			"surname": "Abbott",
-			"shortDescription": "Belarusian Soviet architect. Honored Architect of the Belarusian SSR. Implemented an art gallery (art museum) BSSR.",
-			"longDescription": "M. Baklanov's skill was formed under the influence of such prominent masters of architecture as I. Langbard, M. Sailboats, M. Barsch. M. Baklanov fully shared their creative preferences and throughout 1944-1950 was their student and active assistant. M. Baklanov managed to gain creative independence only in 1949, when he received his first major order — the development of the project of the building of the State Art Gallery of the BSSR.",
+			"shortDescription": "A convicted Australian bank robber who became famous for stealing and hiding millions of dollars. The police, seeking to attract media attention, nicknamed him <<the robber-sender of postcards>>",
+			"longDescription": "A highly intelligent criminal, Abbott used his knowledge to create convincing disguises, fake identities and bypass security systems. His methodical planning of each robbery included monitoring the bank, identifying security weaknesses and examining the layout of the premises in detail.",
 			"info": [
-				"He was born on January 30, 1914 in the village of Ivanovka (now Volnovakha district of Donetsk region of Ukraine). After graduating from the school of factory education, he worked as a draftsman at the Donetsk Metallurgical Plant.",
-				"In 1932, M. Baklanov began studying at the Kharkov Architectural and Construction College.",
-				"In 1936 he entered the Kharkiv Institute of Civil Engineering (now Kharkiv National University of Construction and Architecture). However, he did not finish his studies.",
-				"In December 1940, from the 4th year, he was drafted into the army, and soon he was sent to the 17th separate division of barrage balloons near Bialystok. At the beginning of the Great Patriotic War, Private Baklanov fought with the Nazis, but in July 1941 he was captured. Until 1943 he was in prison camps in Poland. In March, he fled and soon after joined the partisan brigade \"People's Avengers\". For his active participation in the battles with the invaders, he was awarded the medal \"Partisan of the Patriotic War\" I degree.",
-				"After the liberation of Belarus, Mikhail Baklanov in August 1944 was sent to work in the architectural and planning workshop of the Department for Architecture under the SNK of the BSSR (Belgosproject) in the workshop headed by Professor M. Barsch. For 36 years, the architect's work biography has been associated with this institute. Here he worked his way up from an ordinary architect to the head of an architectural design workshop. The skill of M. Baklanov was formed under the influence of such prominent masters of architecture as I. Langbard, M. Sailboats, M. Barsch. M. Baklanov fully shared their creative preferences and throughout 1944-1950 was their student and active assistant. M. Baklanov managed to gain creative independence only in 1949, when he received his first major order — the development of the project of the building of the State Art Gallery of the BSSR.",
-				"After retirement, he became interested in painting, copied the works of Russian artists of the second half of the XIX century."
+				"Born on May 8, 1962, in Australia. In November 1974, at the age of 12, Abbott, who was partially deaf, endured cruel treatment at the Hillston Boys' Home.",
+				"Abbott attended Eastern Hills High School in Mount Helena and was considered an average or good student. His watercolor painting 'Blue Boy' was created",
+				"in November 2009 after he apologized to forgotten Australians.Escape from Fremantle Prison – 1989: Abbott fled from the police during an interrogation regarding",
+				"a break-in at the Nollamara police station in 1986. In 1987, he successfully stole $11,200 from the Commonwealth Bank in Perth, marking his first bank robbery.",
+				"Escape from Sir David Longland Prison – 1997: On November 5, 1997, less than three years after his capture, Abbott escaped with four other inmates from Sir David",
+				"Longland Prison in Wacol, Queensland, using diamond-studded wire secretly smuggled into the prison to cut through the bars in their cells.",
+				"Outcome: In June 2019, the Washington State Court of Appeals unanimously rejected Abbott's plea for freedom. His lawyers argued that the sentence should be reduced",
+				"because he had already spent 17 years in prison in Queensland for crimes committed before his escape from Fremantle Prison in 1989. The court stated that the initial",
+				"sentences were adequate and would not intervene, noting that Abbott intentionally committed subsequent crimes leading to his imprisonment in Queensland. He will be",
+				"eligible for parole in Western Australia in July 2026, and his sentence in Western Australia will expire in July 2033. If he is not charged with new offenses,",
+				"he will remain on parole in Queensland until July 2040, when he turns 78."
 			],
 			"captions": [
-				"National Art Museum of the Republic of Belarus",
-				"M. Gorky National Academic Drama Theater",
-				"An envelope with the original stamp of the Republic of Belarus, dedicated to the 100th anniversary of the birth of M. I. Baklanov. 2014"
+				"Commonwealth Bank in Australia",
+				"Armaguard. An Australian cash processing company"
 			],
 			"birthYear": "1962",
 			"deathYear": "-",
 			"birthDate": "08.05.1962",
 			"deathDate": "-",
-			"events": [
-				"1914 - 1932",
-				"1932 - 1936",
-				"1936 - 1940",
-				"1940 - 1944",
-				"1944 - 1950",
-				"1950 - 1990"
-			],
-			"gallery": ["1.png", "2.png", "3.png"],
+			"gallery": ["1.png", "2.png"],
 			"videoLink": "7CsnFSbpUqE",
-			"mapCoordinates": [47.5741, 37.3175]
-		},
-
-		{
-			"id": "2",
-			"name": "Yuriy",
-			"surname": "Ananic",
-			"patronymic": "Stepanovich",
-			"shortDescription": "Belarusian architect. He contributed to the formation of the architectural appearance of modern Minsk and other Belarusian cities. Member of the Belarusian Union of Architects.",
-			"longDescription": "Born in Minsk, his father is a driver of a fast train. In 1978 he graduated from the Architectural Faculty of the Belarusian State Polytechnic Institute (now BNTU) with a degree in urban planning. After completing his studies, he worked for thirty years in RUE Institute Belgosproekt. For some time he held the position of chief architect at Global Investments.",
-			"info": [
-				"Studied at BNTU",
-				"After completing his studies, he worked for thirty years in RUE \"Institute Belgosproekt\"",
-				"Reconstruction of the central part of Minsk within the 1st ring.",
-				"Construction of the residential area \"Lebyazhy\" in Minsk.",
-				"Tragically died at the Ptich railway station of the Minsk district."
-			],
-			"captions": [
-				"Reconstruction of the building of the National Bank of Belarus (2002)",
-				"Branch building No. 511 of Belarusbank ASB",
-				"Residential complex of the Embassy of the Russian Federation in Belarus"
-			],
-			"birthYear": "1962",
-			"deathYear": "-",
-			"birthDate": "08.05.1962",
-			"deathDate": "-",
-			"events": [
-				"1914 - 1932",
-				"1932 - 1936",
-				"1936 - 1940",
-				"1940 - 1944",
-				"1944 - 1950",
-				"1950 - 1990"
-			],
-			"gallery": ["1.png", "2.png", "3.png"],
-			"videoLink": "7CsnFSbpUqE",
-			"mapCoordinates": [47.5741, 37.3175]
+			"mapCoordinates": [-26.5741, 121.3175]
 		},
 
 		{
 			"id": "3",
-			"name": "Ned",
-			"surname": "Kelly",
-			"shortDescription": "Belarusian architect, member of the Board of the Belarusian Union of Architects, winner of the Lenin Komsomol Prize of Belarus, head of the creative workshop.",
-			"longDescription": "Viktor Ivanovich Karako (belor. Karaka Viktar Ivanavich; b. July 29, 1948, Grodno) — Belarusian architect, member of the Board of the Belarusian Union of Architects, winner of the Lenin Komsomol Prize of Belarus, head of the creative workshop.",
+			"name": "John",
+			"surname": "Gilbert",
+			"shortDescription": "was an Australian bushranger who was shot dead by the police at the age of 23 near Binalong, New South Wales on 13 May 1865.",
+			"longDescription": "Gilbert was a member of Ben Hall's gang. Hall and Gilbert were both shot by police within a week of each other. Hall was shot dead on 5 May 1865 near Forbes. After Hall was killed his gang split up and Gilbert and John Dunn travelled to Binalong where Dunn had relatives.",
 			"info": [
-				"Born on July 29, 1948 in Grodno, Byelorussian SSR.",
-				"He studied at the Department of Architecture of the Belarusian Polytechnic Institute.",
-				"He worked as an architect, senior architect, chief architect of projects, head of the workshop at BELGOSPROJECt.",
-				"In 1976-1982, head of a group of architects, chief architect of projects, head of the Belniipgradostroitelstvo workshop. In 1982, he became a laureate of the Lenin Komsomol of Belarus in the field of architecture for the project of the Youth Palace in Novopolotsk.",
-				"He worked as an architect, senior architect, chief architect of projects, head of the workshop at BELGOSPROJECt.",
-				"Since 1998, he has been heading his own creative workshop.",
-				"Since 2003, he has been teaching design at the Faculty of Architecture of the Belarusian National Technical University.",
-				"Since 2005, he has been a member of the Board of the Belarusian Union of Architects, chairman of the BSE city organization and a member of the City Monumental and Decorative Council."
+				"He was born in Hamilton, Canada West in 1842.",
+				"His mother Eleanor (née Wilson) died shortly after his birth. ",
+				"His father William subsequently married Eliza Cord, a woman only slightly older than his eldest surviving daughter, ",
+				"Eleanor. In 1852 John accompanied his family to the Victorian goldfields.",
+				" Nine members of the Gilbert family arrived in Port Phillip on board the Revenue in October 1852. ",
+				"a break-in at the Nollamara police station in 1986. In 1987, he successfully stole $11,200 from the Commonwealth Bank in Perth,",
+				"marking his first bank robbery.They included William and Eliza, Eleanor (Ellen), Frank, James, Charles, Thomas Charbonnelle and Nicholas Wiseman.",
+				"A contemporary of Hall and Gardiner, Johnny Gilbert, alias Roberts, was one of the gang charged with the",
+				"robbery of the gold escort at Eugowra Rocks, but had not been captured. His uncle, John Davis, was found",
+				"shot in April 1854 Gilbert (then known as Roberts) was arrested and charged with murder. He was acquitted but later jailed for horse stealing."
 			],
 			"captions": [
-				"Reconstruction of school 4 in Minsk",
-				"Youth Center in Novopolotsk",
-				"Judge's house on the Borovaya racing ring"
+				"Sydney Commercial Banking Company Limited, also known as BBC or CBCBank"
 			],
-			"birthYear": "1962",
-			"deathYear": "-",
-			"birthDate": "08.05.1962",
-			"deathDate": "-",
-			"events": [
-				"1914 - 1932",
-				"1932 - 1936",
-				"1936 - 1940",
-				"1940 - 1944",
-				"1944 - 1950",
-				"1950 - 1990"
+			"birthYear": "1842",
+			"deathYear": "1865",
+			"birthDate": "08.05.1842",
+			"deathDate": "11.10.1865",
+			"gallery": ["1.png"],
+			"videoLink": "_XPA1hkoC6Q",
+			"mapCoordinates": [43.252898, -79.858486]
+		},
+
+		{
+			"id": "2",
+			"name": "Ned",
+			"surname": "Kelly",
+			"shortDescription": "was an Australian bushranger, outlaw, gang leader and convicted police-murderer. ",
+			"longDescription": "One of the last bushrangers, he is known for wearing a suit of bulletproof armour during his final shootout with the police.",
+			"info": [
+				"Kelly was born in the then–British colony of Victoria as the third of eight children to Irish parents.",
+				 "His father, a transported convict, died shortly after serving a six-month prison sentence, leaving Kelly, ",
+				 "then aged 12, as the eldest male of the household. The Kellys were a poor selector family who saw themselves ",
+				 "as downtrodden by the Squattocracy and as victims of persecution by the Victoria Police. While a teenager,",
+				 " Kelly was arrested for associating with bushranger Harry Power and served two prison terms for a variety of offences,",
+				 "the longest stretch being from 1871 to 1874 on a conviction of receiving a stolen horse. He later joined the Greta Mob,",
+				 "In 1907, he moved to St. Petersburg, where he successfully passed the exams at the Higher Art School at the Imperial Academy of ",
+				 "Arts at the Faculty of Architecture. He studied for seven years in St. Petersburg. a group of bush larrikins known for stock theft.",
+				 "A violent confrontation with a policeman occurred at the Kelly family's home in 1878, and Kelly was indicted for his attempted murder. ",
+				 "Fleeing to the bush, Kelly vowed to avenge his mother, who was imprisoned for her role in the incident. After he, his younger brother Dan,",
+				 "and two associates—Joe Byrne and Steve Hart—shot dead three policemen, the government of Victoria proclaimed them outlaws."
 			],
-			"gallery": ["1.png", "2.png", "3.png"],
-			"videoLink": "7CsnFSbpUqE",
-			"mapCoordinates": [47.5741, 37.3175]
+			"captions": [
+				"The Ned Kelly gang"
+			],
+			"birthYear": "1854",
+			"deathYear": "1880",
+			"birthDate": "07.12.1854",
+			"deathDate": "11.11.1880",
+			"gallery": ["1.png"],
+			"videoLink": "jhAllnWPdcU",
+			"mapCoordinates": [28.829062, -96.981112]
 		},
 
 		{
 			"id": "4",
 			"name": "Ronald",
 			"surname": "Ryan",
-			"shortDescription": "Soviet, Belarusian architect, teacher. People's Architect of the USSR (1970)",
-			"longDescription": "Full member of the Academy of Arts of the USSR (1979). Corresponding member of the Academy of Construction and Architecture of the USSR (1957). Member of the Union of Architects of the Byelorussian SSR (1942).Member of the CPSU (b) since 1940. Delegate of the XXII Congress of the CPSU",
+			"shortDescription": "he was the last person to be executed legally in Australia.",
+			"longDescription": "Ryan was found guilty of shooting and killing warden George Hudson during an escape from Pentridge Prison, Victoria, in 1965.",
 			"info": [
-				"Vladimir Korol was born on December 14 (27), 1912 in the city of Igumen (now Cherven, Minsk region of Belarus)",
-				"In 1931 he graduated from the Vitebsk Art College. For several years he worked as a teacher and director of one of the schools in Dzerzhinsk, Minsk region.",
-				"From 1934 to 1941 he studied at the Architectural Faculty of the Leningrad Institute of Painting, Sculpture and Architecture, where talented architects and teachers worked at that time: I. Fomin, L. Rudnev, I. Langbard. He successfully defended his thesis project and immediately after graduating from the academy he was enrolled in graduate school (Samarkand, 1943-1945).",
-				"Deputy Head of the Main Department for Architecture Affairs under the Council of Ministers of the Byelorussian SSR.",
-				"Head of the Main Department for Architecture under the Council of Ministers of the Belarusian SSR",
-				"Chairman of the Committee for Construction and Architecture of the Belarusian SSR.",
-				"Chairman of the State Construction Committee of the Belarusian SSR."
+				"Ronald Edmond Thompson was born at the Royal Women's Hospital in Melbourne Carlton, ",
+				"to John Ronald Ryan and Cecilia Thompson (née Young). Cecilia already had a son with her first husband,",
+				 "George Harry Thompson and was living with John Ryan. Cecilia and George had separated in 1915 when George left to fight",
+				"in the Great War. The relationship never resumed. Cecilia met Ryan while working as a nurse in Woods Point where he was",
+				 "suffering from lung disease. They formed a relationship in 1924 and later married in 1929, after Thompson's death in 1927",
+				  "by falling from a tram and getting hit by a car.[2] Ronald then adopted the name Ronald Edmond Ryan. In 1936, ",
+				  "Ryan was confirmed in the Roman Catholic Church. He took as his confirmation name Joseph,", 
+				"becoming Ronald Edmond Joseph Ryan. He did not like Edmond and from then on used Ronald Joseph Ryan"
 			],
 			"captions": [
-				"Leninsky Prospekt (now Independence Avenue)",
-				"A postcard of Belarus with the original stamp '100 years since the birth of V. A. King.' 2012",
-				"V. Korol's grave in the Eastern cemetery of Minsk."
+				"Her Majesty's Bendigo Prison"
 			],
-			"birthYear": "1962",
-			"deathYear": "-",
-			"birthDate": "08.05.1962",
-			"deathDate": "-",
-			"events": [
-				"1914 - 1932",
-				"1932 - 1936",
-				"1936 - 1940",
-				"1940 - 1944",
-				"1944 - 1950",
-				"1950 - 1990"
-			],
-			"gallery": ["1.png", "2.png", "3.png"],
-			"videoLink": "7CsnFSbpUqE",
-			"mapCoordinates": [47.5741, 37.3175]
+			"birthYear": "1925",
+			"deathYear": "1967",
+			"birthDate": "21.02.1925",
+			"deathDate": "03.02.1967",
+			"gallery": ["1.png"],
+			"videoLink": "hGbPlNF4d9A",
+			"mapCoordinates": [28.829062, -96.981112]
 		},
 
 		{
 			"id": "5",
 			"name": "Andreas",
 			"surname": "Baader",
-			"shortDescription": "Belarusian Soviet architect, Honored Artist of the Belarusian SSR (1934), winner of the Grand Prix of the World Exhibition in Paris, 1937, Doctor of Architecture (since 1939).",
-			"longDescription": "Is one of the outstanding architects of Europe of the XX century, whose artistic heritage has had a significant impact on the development of modern architecture. His architectural works greatly influenced the formation of the appearance of the city of Minsk and are examples of Belarusian architecture.",
+			"shortDescription": "was a West German communist and leader of the left-wing militant organization Red Army Faction",
+			"longDescription": "Baader took part in the Schwabing riots",
 			"info": [
-				"Joseph Langbard was born on January 6 (18), 1882 in the town of Belsk, Grodno province of the Russian Empire, in a Jewish family. His father saw a future for his son in commerce, but Joseph loved to draw since childhood.",
-				"In 1907, he moved to St. Petersburg, where he successfully passed the exams at the Higher Art School at the Imperial Academy of Arts at the Faculty of Architecture. He studied for seven years in St. Petersburg.",
-				"During the First World War, Langbard worked at the front as the head of an engineering detachment. Under his leadership, the zemstvo council in Kostroma, the agricultural museum and the miniature theater in Petrograd were built at that time. After the war, he was a contractor for a construction office at the Department of Health in Petrograd.",
-				"In 1929, he won the All-Union competition for the best project of the Government House of the Belarusian SSR. Langbard executed projects for buildings of the Institute of Mineral Raw Materials in Moscow, mechanical laundries, a dispensary and a kitchen factory, as well as the Botkin Infectious Diseases Hospital in Leningrad.",
-				"During the Second World War, Langbard worked on masking buildings in Leningrad, after evacuation to the rear, he lived in the Yaroslavl region. In 1944, he returned to Minsk, destroyed by the Nazis, where he worked on plans for the reconstruction of Minsk and Gomel as part of the commission of the Committee for Architecture under the SNK of the USSR."
+				"Andreas Baader was born in Munich on May 6, 1943. He was the only child of the historian and archivist Dr.",
+				"Berndt Philipp Bayader and the Analyses of Ermin Nina (Krecher). Andreas was raised by his mother, aunt and grandmother.Philip Baader",
+				"noting that Abbott also intentionally committed subsequent crimes that led to his imprisonment in Queensland.",
+				" served in the Wehrmacht, was captured on the Russian front in 1945 and never returned.Baader was a high school dropout",
+				"and a Bohemian before he joined the Red Army faction. He was one of the few members of the Royal Air Force who ",
+				" did not attend university. At the age of twenty, Baader moved from Munich to West Berlin, presumably ",
+				" to receive an art education.He worked as a builder and unsuccessfully as a tabloid journalist."
 			],
 			"captions": [
-				"Independence Square in Minsk",
-				"Academy of Sciences Building in Minsk",
-				"Watercolor by Joseph Langbard 'Minsk'"
+				"Stammheim Prison",
+				"The Red Army Faction is a German left—wing terrorist organization"
 			],
-			"birthYear": "1962",
-			"deathYear": "-",
-			"birthDate": "08.05.1962",
-			"deathDate": "-",
-			"events": [
-				"1914 - 1932",
-				"1932 - 1936",
-				"1936 - 1940",
-				"1940 - 1944",
-				"1944 - 1950",
-				"1950 - 1990"
-			],
-			"gallery": ["1.png", "2.png", "3.png"],
-			"videoLink": "7CsnFSbpUqE",
-			"mapCoordinates": [47.5741, 37.3175]
+			"birthYear": "1943",
+			"deathYear": "1977",
+			"birthDate": "06.05.1943",
+			"deathDate": "18.10.1977",
+			"gallery": ["1.png", "2.png"],
+			"videoLink": "3TeDTWLBVoA",
+			"mapCoordinates": [52.518657, 13.374719]
 		}
 	]
 }

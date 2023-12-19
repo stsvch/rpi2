@@ -1,5 +1,21 @@
 .people{
     margin-top: 5%;
+    height: 50%;
+    width:  50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.people-img{
+    margin-top: 1%;
+    height: 25%;
+    width:  25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.peopleb{
+    margin-bottom: 1%;
 }
 
 .team-container{
@@ -11,7 +27,8 @@
 }
 
 .dev{
-    height: 50px;
+    height: 25%;
+    width:  25%;
 }
 
 .website{
