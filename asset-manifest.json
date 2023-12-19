@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/rpi2/static/css/main.615f5e15.css",
+    "main.js": "/rpi2/static/js/main.3cd788ee.js",
+    "static/js/787.d4aba7ab.chunk.js": "/rpi2/static/js/787.d4aba7ab.chunk.js",
+    "static/media/2.png": "/rpi2/static/media/2.7789b3e468399d39067f.png",
+    "static/media/1.png": "/rpi2/static/media/1.3db43747f156c193c1e3.png",
+    "static/media/3.png": "/rpi2/static/media/3.ce10d59f1884c67391e6.png",
+    "static/media/fface.png": "/rpi2/static/media/fface.5ecd1468a0807fe7d53c.png",
+    "static/media/anya.jpg": "/rpi2/static/media/anya.c1fa83ae43f71c81560b.jpg",
+    "static/media/danik.jpg": "/rpi2/static/media/danik.e94bab163fbfd4236f16.jpg",
+    "static/media/yana.jpg": "/rpi2/static/media/yana.c9a6dc1edc98cdafbe05.jpg",
+    "static/media/artem.jpg": "/rpi2/static/media/artem.900c24fb9e237f9f7804.jpg",
+    "static/media/flagEng.svg": "/rpi2/static/media/flagEng.db8bfdfd5d360c6e80c23155e52ede73.svg",
+    "static/media/logo.svg": "/rpi2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/flagRus.svg": "/rpi2/static/media/flagRus.78ce03ea05822e9fc9b5dc9f694b4072.svg",
+    "index.html": "/rpi2/index.html",
+    "main.615f5e15.css.map": "/rpi2/static/css/main.615f5e15.css.map",
+    "main.3cd788ee.js.map": "/rpi2/static/js/main.3cd788ee.js.map",
+    "787.d4aba7ab.chunk.js.map": "/rpi2/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.615f5e15.css",
+    "static/js/main.3cd788ee.js"
+  ]
+}
