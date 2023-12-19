@@ -22,36 +22,36 @@
 			"id": "1",
 			"name": "Brenden",
 			"surname": "Abbott",
-			"shortDescription": "Belarusian Soviet architect. Honored Architect of the Belarusian SSR. Implemented an art gallery (art museum) BSSR.",
-			"longDescription": "M. Baklanov's skill was formed under the influence of such prominent masters of architecture as I. Langbard, M. Sailboats, M. Barsch. M. Baklanov fully shared their creative preferences and throughout 1944-1950 was their student and active assistant. M. Baklanov managed to gain creative independence only in 1949, when he received his first major order — the development of the project of the building of the State Art Gallery of the BSSR.",
+			"shortDescription": "A convicted Australian bank robber who became famous for stealing and hiding millions of dollars. The police, seeking to attract media attention, nicknamed him <<the robber-sender of postcards>>",
+			"longDescription": "A highly intelligent criminal, Abbott used his knowledge to create convincing disguises, fake identities and bypass security systems. His methodical planning of each robbery included monitoring the bank, identifying security weaknesses and examining the layout of the premises in detail.",
 			"info": [
-				"He was born on January 30, 1914 in the village of Ivanovka (now Volnovakha district of Donetsk region of Ukraine). After graduating from the school of factory education, he worked as a draftsman at the Donetsk Metallurgical Plant.",
-				"In 1932, M. Baklanov began studying at the Kharkov Architectural and Construction College.",
-				"In 1936 he entered the Kharkiv Institute of Civil Engineering (now Kharkiv National University of Construction and Architecture). However, he did not finish his studies.",
-				"In December 1940, from the 4th year, he was drafted into the army, and soon he was sent to the 17th separate division of barrage balloons near Bialystok. At the beginning of the Great Patriotic War, Private Baklanov fought with the Nazis, but in July 1941 he was captured. Until 1943 he was in prison camps in Poland. In March, he fled and soon after joined the partisan brigade \"People's Avengers\". For his active participation in the battles with the invaders, he was awarded the medal \"Partisan of the Patriotic War\" I degree.",
-				"After the liberation of Belarus, Mikhail Baklanov in August 1944 was sent to work in the architectural and planning workshop of the Department for Architecture under the SNK of the BSSR (Belgosproject) in the workshop headed by Professor M. Barsch. For 36 years, the architect's work biography has been associated with this institute. Here he worked his way up from an ordinary architect to the head of an architectural design workshop. The skill of M. Baklanov was formed under the influence of such prominent masters of architecture as I. Langbard, M. Sailboats, M. Barsch. M. Baklanov fully shared their creative preferences and throughout 1944-1950 was their student and active assistant. M. Baklanov managed to gain creative independence only in 1949, when he received his first major order — the development of the project of the building of the State Art Gallery of the BSSR.",
-				"After retirement, he became interested in painting, copied the works of Russian artists of the second half of the XIX century."
+				"Born on May 8, 1962, in Australia. In November 1974, at the age of 12, Abbott, who was partially deaf, endured cruel treatment at the Hillston Boys' Home.",
+				"Abbott attended Eastern Hills High School in Mount Helena and was considered an average or good student. His watercolor painting 'Blue Boy' was created",
+				"in November 2009 after he apologized to forgotten Australians.Escape from Fremantle Prison – 1989: Abbott fled from the police during an interrogation regarding",
+				"a break-in at the Nollamara police station in 1986. In 1987, he successfully stole $11,200 from the Commonwealth Bank in Perth, marking his first bank robbery.",
+				"Escape from Sir David Longland Prison – 1997: On November 5, 1997, less than three years after his capture, Abbott escaped with four other inmates from Sir David",
+				"Longland Prison in Wacol, Queensland, using diamond-studded wire secretly smuggled into the prison to cut through the bars in their cells.",
+				"Outcome: In June 2019, the Washington State Court of Appeals unanimously rejected Abbott's plea for freedom. His lawyers argued that the sentence should be reduced",
+				"because he had already spent 17 years in prison in Queensland for crimes committed before his escape from Fremantle Prison in 1989. The court stated that the initial",
+				"sentences were adequate and would not intervene, noting that Abbott intentionally committed subsequent crimes leading to his imprisonment in Queensland. He will be",
+				"eligible for parole in Western Australia in July 2026, and his sentence in Western Australia will expire in July 2033. If he is not charged with new offenses,",
+				"he will remain on parole in Queensland until July 2040, when he turns 78."
 			],
 			"captions": [
-				"National Art Museum of the Republic of Belarus",
-				"M. Gorky National Academic Drama Theater",
-				"An envelope with the original stamp of the Republic of Belarus, dedicated to the 100th anniversary of the birth of M. I. Baklanov. 2014"
+				"Commonwealth Bank in Australia",
+				"Armaguard. An Australian cash processing company"
 			],
 			"birthYear": "1962",
 			"deathYear": "-",
 			"birthDate": "08.05.1962",
 			"deathDate": "-",
 			"events": [
-				"1914 - 1932",
-				"1932 - 1936",
-				"1936 - 1940",
-				"1940 - 1944",
-				"1944 - 1950",
-				"1950 - 1990"
+				"1989 — 1995",
+				"1997 — 1998"
 			],
-			"gallery": ["1.png", "2.png", "3.png"],
+			"gallery": ["1.png", "2.png"],
 			"videoLink": "7CsnFSbpUqE",
-			"mapCoordinates": [47.5741, 37.3175]
+			"mapCoordinates": [-26.5741, 121.3175]
 		},
 
 		{

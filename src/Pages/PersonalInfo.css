@@ -1,0 +1,24 @@
+.spase{
+    height: 500px;
+}
+
+.photo {
+	width: 20% !important;
+    position: absolute;
+    top: 2cqw;
+    left: 40%; 
+	filter: drop-shadow(4px 4px 30px rgba(0, 0, 0, 0.25));
+}
+
+.person-video {
+	width: 80%;
+	margin-top: 20px;
+	height: 600px;
+}
+
+.person-map {
+	margin-top: 20px;
+	margin-left: 150px;
+	width: 80%;
+	height: 600px;
+}
