@@ -1,7 +1,7 @@
 {
 	"home_page": "Home",
 	"list": "List",
-	"list_of_arch": "Architects",
+	"developers": "Developers",
 	"russian_lang": "Russian",
 	"english_lang": "English",
 	"about1": "About site",
@@ -69,15 +69,15 @@
 				"shot in April 1854 Gilbert (then known as Roberts) was arrested and charged with murder. He was acquitted but later jailed for horse stealing."
 			],
 			"captions": [
-				"In 1862, John Gilbert was first named as an accomplice of Gardiner when they and two others held up a storekeeper."
+				"Sydney Commercial Banking Company Limited, also known as BBC or CBCBank"
 			],
-			"birthYear": "1962",
-			"deathYear": "-",
-			"birthDate": "08.05.1962",
-			"deathDate": "-",
-			"gallery": ["1.png", "2.png", "3.png"],
+			"birthYear": "1842",
+			"deathYear": "1865",
+			"birthDate": "08.05.1842",
+			"deathDate": "11.10.1865",
+			"gallery": ["1.png"],
 			"videoLink": "_XPA1hkoC6Q",
-			"mapCoordinates": [47.5741, 37.3175]
+			"mapCoordinates": [43.252898, -79.858486]
 		},
 
 		{
@@ -100,56 +100,70 @@
 				 "and two associates—Joe Byrne and Steve Hart—shot dead three policemen, the government of Victoria proclaimed them outlaws."
 			],
 			"captions": [
-
+				"The Ned Kelly gang"
 			],
-			"birthYear": "1962",
-			"deathYear": "-",
-			"birthDate": "08.05.1962",
-			"deathDate": "-",
-			"gallery": ["1.png", "2.png", "3.png"],
-			"videoLink": "7CsnFSbpUqE",
-			"mapCoordinates": [47.5741, 37.3175]
+			"birthYear": "1854",
+			"deathYear": "1880",
+			"birthDate": "07.12.1854",
+			"deathDate": "11.11.1880",
+			"gallery": ["1.png"],
+			"videoLink": "jhAllnWPdcU",
+			"mapCoordinates": [28.829062, -96.981112]
 		},
 
 		{
 			"id": "4",
 			"name": "Ronald",
 			"surname": "Ryan",
-			"shortDescription": "Soviet, Belarusian architect, teacher. People's Architect of the USSR (1970)",
-			"longDescription": "Full member of the Academy of Arts of the USSR (1979). Corresponding member of the Academy of Construction and Architecture of the USSR (1957). Member of the Union of Architects of the Byelorussian SSR (1942).Member of the CPSU (b) since 1940. Delegate of the XXII Congress of the CPSU",
+			"shortDescription": "he was the last person to be executed legally in Australia.",
+			"longDescription": "Ryan was found guilty of shooting and killing warden George Hudson during an escape from Pentridge Prison, Victoria, in 1965.",
 			"info": [
-
+				"Ronald Edmond Thompson was born at the Royal Women's Hospital in Melbourne Carlton, ",
+				"to John Ronald Ryan and Cecilia Thompson (née Young). Cecilia already had a son with her first husband,",
+				 "George Harry Thompson and was living with John Ryan. Cecilia and George had separated in 1915 when George left to fight",
+				"in the Great War. The relationship never resumed. Cecilia met Ryan while working as a nurse in Woods Point where he was",
+				 "suffering from lung disease. They formed a relationship in 1924 and later married in 1929, after Thompson's death in 1927",
+				  "by falling from a tram and getting hit by a car.[2] Ronald then adopted the name Ronald Edmond Ryan. In 1936, ",
+				  "Ryan was confirmed in the Roman Catholic Church. He took as his confirmation name Joseph,", 
+				"becoming Ronald Edmond Joseph Ryan. He did not like Edmond and from then on used Ronald Joseph Ryan"
 			],
 			"captions": [
-
+				"Her Majesty's Bendigo Prison"
 			],
-			"birthYear": "1962",
-			"deathYear": "-",
-			"birthDate": "08.05.1962",
-			"deathDate": "-",
-			"gallery": ["1.png", "2.png", "3.png"],
-			"videoLink": "7CsnFSbpUqE",
-			"mapCoordinates": [47.5741, 37.3175]
+			"birthYear": "1925",
+			"deathYear": "1967",
+			"birthDate": "21.02.1925",
+			"deathDate": "03.02.1967",
+			"gallery": ["1.png"],
+			"videoLink": "hGbPlNF4d9A",
+			"mapCoordinates": [28.829062, -96.981112]
 		},
 
 		{
 			"id": "5",
 			"name": "Andreas",
 			"surname": "Baader",
-			"shortDescription": "Belarusian Soviet architect, Honored Artist of the Belarusian SSR (1934), winner of the Grand Prix of the World Exhibition in Paris, 1937, Doctor of Architecture (since 1939).",
-			"longDescription": "Is one of the outstanding architects of Europe of the XX century, whose artistic heritage has had a significant impact on the development of modern architecture. His architectural works greatly influenced the formation of the appearance of the city of Minsk and are examples of Belarusian architecture.",
+			"shortDescription": "was a West German communist and leader of the left-wing militant organization Red Army Faction",
+			"longDescription": "Baader took part in the Schwabing riots",
 			"info": [
-
+				"Andreas Baader was born in Munich on May 6, 1943. He was the only child of the historian and archivist Dr.",
+				"Berndt Philipp Bayader and the Analyses of Ermin Nina (Krecher). Andreas was raised by his mother, aunt and grandmother.Philip Baader",
+				"noting that Abbott also intentionally committed subsequent crimes that led to his imprisonment in Queensland.",
+				" served in the Wehrmacht, was captured on the Russian front in 1945 and never returned.Baader was a high school dropout",
+				"and a Bohemian before he joined the Red Army faction. He was one of the few members of the Royal Air Force who ",
+				" did not attend university. At the age of twenty, Baader moved from Munich to West Berlin, presumably ",
+				" to receive an art education.He worked as a builder and unsuccessfully as a tabloid journalist."
 			],
 			"captions": [
-
+				"Stammheim Prison",
+				"The Red Army Faction is a German left—wing terrorist organization"
 			],
-			"birthYear": "1962",
-			"deathYear": "-",
-			"birthDate": "08.05.1962",
-			"deathDate": "-",
-			"gallery": ["1.png", "2.png", "3.png"],
-			"videoLink": "7CsnFSbpUqE",
+			"birthYear": "1943",
+			"deathYear": "1977",
+			"birthDate": "06.05.1943",
+			"deathDate": "18.10.1977",
+			"gallery": ["1.png", "2.png"],
+			"videoLink": "3TeDTWLBVoA",
 			"mapCoordinates": [47.5741, 37.3175]
 		}
 	]

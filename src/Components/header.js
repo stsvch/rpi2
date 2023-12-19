@@ -1,6 +1,6 @@
 import { Container, FormControl, Navbar, Nav } from "react-bootstrap";
 import logo from './logo192.png'
-import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import {HashRouter as Router, Routes, Route, Link} from "react-router-dom";
 import Home from '../Pages/home';
 import List from '../Pages/list';
 import PersonalInfo from "../Pages/PersonalInfo";
@@ -15,7 +15,7 @@ export default function Header (){
             <>
                 <Navbar sticky="top" collapseOnSelect expand="md" bg="light" variant="light">
                     <Container>
-                        <Navbar.Brand href="/">
+                        <Navbar.Brand href="/rpi2/#/">
                             <img
                                 src={logo}
                                 height="30"
@@ -27,8 +27,8 @@ export default function Header (){
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mr-auto">
-                                <Nav.Link href="/">{t("home_page")}</Nav.Link>
-                                <Nav.Link href="/list">{t("list")}</Nav.Link>
+                                <Nav.Link href="/rpi2/#/">{t("home_page")}</Nav.Link>
+                                <Nav.Link href="/rpi2/#/list">{t("list")}</Nav.Link>
                             </Nav>
                             <div className="nav-languages-ru">
 							<Nav.Link
